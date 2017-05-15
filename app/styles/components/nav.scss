@@ -1,0 +1,18 @@
+@import '../base/variables';
+
+$nav-background: $primary-black-gray-color;
+
+.top-bar {
+  background-color: $nav-background;
+
+  .top-bar-left,
+  .top-bar-right {
+    .menu {
+      .menu-text {
+        color: $primary-white-text-color;
+      }
+
+      background-color: $nav-background;
+    }
+  }
+}
