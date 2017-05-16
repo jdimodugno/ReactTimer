@@ -1,3 +1,8 @@
 @import './base/variables';
 @import './components/nav';
 @import './components/clock';
+
+.page-title {
+  margin-bottom: 2.5rem;
+  margin-top: 2.5rem;
+}
