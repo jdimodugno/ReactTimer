@@ -12,6 +12,10 @@ $nav-background: $primary-black-gray-color;
         color: $primary-white-text-color;
       }
 
+      .active-link {
+        font-weight: bold;
+      }
+
       background-color: $nav-background;
     }
   }
