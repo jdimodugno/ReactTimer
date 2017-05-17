@@ -5,7 +5,7 @@ var Timer = React.createClass({
   render: function () {
     return (
       <div>
-        <h4 className='text-center page-title'> Timer </h4>
+        <h1 className='page-title'> Timer </h1>
         <Clock/>
       </div>
     );
