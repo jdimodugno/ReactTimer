@@ -31,7 +31,7 @@ describe('Timer', () => {
       setTimeout(() => {
         expect(timer.state.count).toBe(0);
         expect(timer.state.timerStatus).toBe('paused');
-        done()
+        done();
       }, 3000);
     })
 
